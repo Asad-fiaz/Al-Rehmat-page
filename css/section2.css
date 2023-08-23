@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.staff{
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-align: center;
+}
+.staff h1{
+    text-shadow: 2px 2px purple;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: white;
+}
+.saqlian{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+@media(max-width:700px){
+    .staff{
+        text-decoration-line: underline;
+    }
+}
